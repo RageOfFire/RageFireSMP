@@ -1,4 +1,3 @@
-import { memo } from 'react'
 function Map() {
     return (
         <div>
@@ -6,4 +5,4 @@ function Map() {
         </div>
     )
 }
-export default memo(Map)
+export default Map
