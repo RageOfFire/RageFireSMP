@@ -1,23 +1,31 @@
-import logo from './logo.svg';
-import './App.css';
+import { useCallback, useState } from "react";
+import Main from "./Main";
+import Header from "./Header";
+import Footer from "./Footer";
+import Map from "./Map";
 
 function App() {
+  const [active, setActive] = useState(1);
+  const SetView = useCallback((active) => {
+    setActive(active);
+  }, []);
+
+  const ActionView = () => {
+    switch (active) {
+      case 1:
+        return <Main />;
+      case 2:
+        return <Map />;
+      default:
+        return <Main />;
+    }
+  };
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div class="container bg-[url('https://wallpapercave.com/wp/wp2868363.jpg')] bg-no-repeat bg-cover">
+      <Header onPage={SetView} />
+      {ActionView()}
+      <Footer />
     </div>
   );
 }
