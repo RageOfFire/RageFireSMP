@@ -1,1 +1,1 @@
-worker: react-scripts start
+worker: npm run build
