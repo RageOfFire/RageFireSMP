@@ -29,7 +29,7 @@ function Headers({ onPage }) {
               onClick={() => {
                 onPage(1);
               }}
-              class="block mt-4 lg:inline-block lg:mt-0 text-orange-400 hover:text-yellow-400 mr-4 text-lg cursor-pointer select-none transition ease-in-out hover:scale-125"
+              class="block mt-4 lg:inline-block lg:mt-0 text-orange-400 hover:text-yellow-400 mr-4 text-lg cursor-pointer select-none"
             >
               Trang chủ
             </span>
@@ -37,13 +37,15 @@ function Headers({ onPage }) {
               onClick={() => {
                 onPage(2);
               }}
-              class="block mt-4 lg:inline-block lg:mt-0 text-orange-400 hover:text-yellow-400 mr-4 text-lg cursor-pointer select-none transition ease-in-out hover:scale-125"
+              class="block mt-4 lg:inline-block lg:mt-0 text-orange-400 hover:text-yellow-400 mr-4 text-lg cursor-pointer select-none"
             >
               Bản đồ
             </span>
             <span
-              onClick={RageSwal}
-              class="block mt-4 lg:inline-block lg:mt-0 text-orange-400 hover:text-yellow-400 text-lg cursor-pointer select-none transition ease-in-out hover:scale-125"
+              onClick={() => {
+                onPage(3);
+              }}
+              class="block mt-4 lg:inline-block lg:mt-0 text-orange-400 hover:text-yellow-400 text-lg cursor-pointer select-none"
             >
               Tải game
             </span>
@@ -52,14 +54,13 @@ function Headers({ onPage }) {
             <button
               onClick={RageSwal}
               class="inline-block text-sm px-4 py-2 mr-3 leading-none border rounded text-yellow-400 border-yellow-400 
-              hover:border-transparent hover:text-slate-900 hover:bg-yellow-400 mt-4 lg:mt-0 transition ease-in-out 
-              hover:scale-125"
+              hover:border-transparent hover:text-slate-900 hover:bg-yellow-400 mt-4 lg:mt-0"
             >
               Đăng nhập
             </button>
             <button
               onClick={RageSwal}
-              class="inline-block text-sm px-4 py-2 leading-none border rounded text-yellow-400 border-yellow-400 hover:border-transparent hover:text-slate-900 hover:bg-yellow-400 mt-4 lg:mt-0 transition ease-in-out hover:scale-125"
+              class="inline-block text-sm px-4 py-2 leading-none border rounded text-yellow-400 border-yellow-400 hover:border-transparent hover:text-slate-900 hover:bg-yellow-400 mt-4 lg:mt-0"
             >
               Đăng ký
             </button>

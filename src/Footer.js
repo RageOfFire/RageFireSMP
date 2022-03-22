@@ -15,7 +15,7 @@ function Footer() {
             </span>
           </div>
           <div class="flex mt-4 space-x-6 sm:justify-center sm:mt-0">
-            <span class="text-sm text-gray-500 sm:text-center dark:text-orange-600 transition ease-in-out hover:scale-125">
+            <span class="text-sm text-gray-500 sm:text-center dark:text-orange-600">
               © Được làm bởi RageOfFire.
             </span>
           </div>

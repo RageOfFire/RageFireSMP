@@ -3,6 +3,7 @@ import Main from "./Main";
 import Header from "./Header";
 import Footer from "./Footer";
 import Map from "./Map";
+import Download from "./Download";
 
 function App() {
   const [active, setActive] = useState(1);
@@ -16,6 +17,8 @@ function App() {
         return <Main />;
       case 2:
         return <Map />;
+      case 3:
+        return <Download />;
       default:
         return <Main />;
     }
