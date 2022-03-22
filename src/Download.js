@@ -4,7 +4,7 @@ function Download() {
         <div>
                 <div class="grid grid-cols-3 m-5">
     {/*Tlaucher*/}
-      <div class="max-w-sm bg-white rounded-lg border border-gray-200 shadow-md dark:bg-gray-800 dark:border-gray-700">
+      <div class="max-w-sm bg-white rounded-lg border border-gray-200 shadow-md dark:bg-gray-800 dark:border-gray-700 transition ease-in-out hover:-translate-y-1 hover:scale-105">
         <a href="https://tlauncher.org/en/" target="_blank" rel="noreferrer">
             <img class="rounded-t-lg" src="https://tlauncher.org/fav-icon-512.png" alt="" />
             <div class="p-5">
@@ -15,7 +15,7 @@ function Download() {
         </a>
     </div>
     {/*Minecraft bedrock*/}
-    <div class="max-w-sm bg-white rounded-lg border border-gray-200 shadow-md dark:bg-gray-800 dark:border-gray-700">
+    <div class="max-w-sm bg-white rounded-lg border border-gray-200 shadow-md dark:bg-gray-800 dark:border-gray-700 transition ease-in-out hover:-translate-y-1 hover:scale-105">
       <a href="https://mcpedl.org/downloading/" target="_blank" rel="noreferrer">
           <img class="rounded-t-lg" src="https://play-lh.googleusercontent.com/VSwHQjcAttxsLE47RuS4PqpC4LT7lCoSjE7Hx5AW_yCxtDvcnsHHvm5CTuL5BPN-uRTP" alt="" />
           <div class="p-5">
@@ -26,7 +26,7 @@ function Download() {
       </a>
     </div>
     {/*PojavLaucher*/}
-    <div class="max-w-sm bg-white rounded-lg border border-gray-200 shadow-md dark:bg-gray-800 dark:border-gray-700">
+    <div class="max-w-sm bg-white rounded-lg border border-gray-200 shadow-md dark:bg-gray-800 dark:border-gray-700 transition ease-in-out hover:-translate-y-1 hover:scale-105">
       <a href="https://play.google.com/store/apps/details?id=net.kdt.pojavlaunch&hl=vi&gl=US" target="_blank" rel="noreferrer">
           <img class="rounded-t-lg" src="https://play-lh.googleusercontent.com/kBKcfqoudjlMRMUogBXDp43FrgY1izzXmdP9p2smJdqF_MJrWUR7VgEXA8OPGTJQi8s" alt="" />
           <div class="p-5">
