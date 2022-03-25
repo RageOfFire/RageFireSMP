@@ -1,4 +1,5 @@
 import { memo } from "react";
+import { Link } from "react-router-dom"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faFireFlameCurved } from "@fortawesome/free-solid-svg-icons";
 import Swal from "sweetalert2";
@@ -26,28 +27,19 @@ function Headers({ onPage }) {
         <div class="w-full block flex-grow lg:flex lg:items-center lg:w-auto">
           <div class="text-sm lg:flex-grow">
             <span
-              onClick={() => {
-                onPage(1);
-              }}
               class="block mt-4 lg:inline-block lg:mt-0 text-orange-400 hover:text-yellow-400 mr-4 text-lg cursor-pointer select-none"
             >
-              Trang chủ
+            <Link to="/">Trang chủ</Link>
             </span>
             <span
-              onClick={() => {
-                onPage(2);
-              }}
               class="block mt-4 lg:inline-block lg:mt-0 text-orange-400 hover:text-yellow-400 mr-4 text-lg cursor-pointer select-none"
             >
-              Bản đồ
+            <Link to="/map">Bản đồ</Link>
             </span>
             <span
-              onClick={() => {
-                onPage(3);
-              }}
               class="block mt-4 lg:inline-block lg:mt-0 text-orange-400 hover:text-yellow-400 text-lg cursor-pointer select-none"
             >
-              Tải game
+              <Link to="/download">Tải game</Link>
             </span>
           </div>
           <div>
