@@ -10,6 +10,7 @@ function Main() {
     <div>
       <div className="grid grid-cols-4 mx-5 my-5 h-screen">
         <div className="col-span-3">
+      <a href="https://minecraft-mp.com/server-s301618" target="_blank" rel="noreferrer"><img className="w-full" src="https://minecraft-mp.com/leaderboard-301618-3.png" alt="ServerBanner"/></a>
           <div className="bg-transparent">
             <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
               <div className="lg:text-center">
@@ -87,7 +88,6 @@ function Main() {
           </div>
         </div>
         <div className="col-span-1">
-        <a href="https://minecraft-mp.com/server-s301618" target="_blank" rel="noreferrer"><img src="https://minecraft-mp.com/banner-301618-3.png" alt="minecraft server"/></a>
           <iframe
             src="https://discord.com/widget?id=752171524919918672&theme=dark"
             className="w-full aspect-square mt-3"
