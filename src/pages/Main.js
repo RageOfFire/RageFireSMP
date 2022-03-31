@@ -73,13 +73,12 @@ function Main() {
                         <FontAwesomeIcon icon={faScaleBalanced} />
                       </div>
                       <p className="ml-16 text-lg leading-6 font-medium text-orange-400">
-                        Không luật lệ
+                        Không Pay2win
                       </p>
                     </div>
                     <div className="mt-2 ml-16 text-base text-yellow-100">
-                      Không luật lệ nghĩa là bạn có thể tự do hack/cheat thoải
-                      mái nhưng không được làm ảnh hướng tới máy chủ (ví dụ như
-                      raid server)
+                        Server đảm bảo rằng không hề có pay2win và hoàn toàn là 1 server sinh tồn bình thường mọi
+                        loại rank trong server đều có thể nhận miễn phí ở discord
                     </div>
                   </div>
                 </div>
