@@ -90,7 +90,7 @@ function Main() {
         <div className="col-span-1">
           <iframe
             src="https://discord.com/widget?id=752171524919918672&theme=dark"
-            className="w-full aspect-square mt-3"
+            className="w-full aspect-square"
             allowtransparency="true"
             frameBorder="0"
             sandbox="allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts"
