@@ -15,16 +15,32 @@ const commands = [
     command: '/rtp location "Tên cấu trúc"',
     description: "Cần KING | Dịch chuyển bạn tới 1 cấu trúc được chọn trước",
   },
+  {
+    command: '/sethome "Tên"',
+    description: 'Tạo home để có thể di chuyển về đó mọi lúc mọi nơi bằng lệnh /home "tên" và xóa đi bất kỳ lúc nào với /delhome "Tên"',
+  },
+  {
+    command: '/warps',
+    description: "Hiển thị các khu khả dụng trong server",
+  },
+  {
+    command: '/tpa "Tên người chơi"',
+    description: "Gửi 1 yêu cầu dịch chuyển tới người chơi đó",
+  },
+  {
+    command: '/tpahere "Tên người chơi"',
+    description: "Gửi 1 yêu cầu người chơi đó dịch chuyển tới bản thân bạn",
+  },
 ];
 function Random() {
   return (
     <div className="w-screen">
       <div className="lg:text-center">
         <p className="mt-2 text-3xl leading-8 font-extrabold tracking-tight text-orange-400 sm:text-4xl">
-          RandomTP
+          Dịch chuyển
         </p>
         <p className="mt-4 max-w-2xl text-xl text-yellow-100 lg:mx-auto">
-          Dịch chuyển người chơi đi 1 nơi ngẫu nhiên trên thế giới
+          Các lệnh dịch chuyển trong server
         </p>
       </div>
       <div className="w-full px-4 pt-16 grid grid-cols-3">

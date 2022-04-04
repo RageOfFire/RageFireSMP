@@ -19,6 +19,26 @@ const commands = [
     command: "/skins",
     description: "Mở 1 gui gồm nhiều skin để bạn chọn",
   },
+  {
+    command: "/petblock",
+    description: "Mở 1 GUI chỉnh sửa pet của bạn",
+  },
+  {
+    command: "/petblock toggle",
+    description: "Bật/tắt pets của bạn",
+  },
+  {
+    command: "/petblock call",
+    description: "Gọi lại pet đến gần bạn",
+  },
+  {
+    command: '/petblock rename "Ngẫu nhiên"',
+    description: 'Đổi tên pet của bạn trong đó "Ngẫu nhiên" là tùy chọn',
+  },
+  {
+    command: '/petblock skin "Tên"',
+    description: "Đổi skin cho pet của bạn",
+  },
 ];
 function Skin() {
   return (

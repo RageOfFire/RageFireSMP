@@ -8,9 +8,9 @@ import {
         faShop,
         faLockOpen,
         faPeopleGroup,
-        faMoneyBill,
         faClose,
         faBars,
+        faPersonWalking
         } from "@fortawesome/free-solid-svg-icons";
 import Swal from "sweetalert2";
 import withReactContent from "sweetalert2-react-content";
@@ -49,10 +49,10 @@ const solutions = [
     icon: faPeopleGroup
   },
   {
-    name: 'Banknotes',
-    description: 'Hướng dẫn cơ bản về các lệnh banknotes',
-    href: '/helps/Bank',
-    icon: faMoneyBill
+    name: 'TP',
+    description: "Hướng dẫn cơ bản về các lệnh dịch chuyển.",
+    href: '/helps/TP',
+    icon: faPersonWalking
   },
 ]
 

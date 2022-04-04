@@ -9,7 +9,6 @@ import Shop from './pages/helps/Shop';
 import Skin from './pages/helps/Skin';
 import Lock from './pages/helps/Lock';
 import Random from './pages/helps/Random';
-import Bank from './pages/helps/Bank';
 
 function App() {
 
@@ -24,8 +23,7 @@ function App() {
         <Route path='/helps/Shop' element={<Shop />} />
         <Route path='/helps/Lock' element={<Lock />} />
         <Route path='/helps/Skin' element={<Skin />} />
-        <Route path='/helps/RandomTP' element={<Random />} />
-        <Route path='/helps/Bank' element={<Bank />} />
+        <Route path='/helps/TP' element={<Random />} />
       </Routes>
       <Footer />
     </div>

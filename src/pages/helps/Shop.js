@@ -19,6 +19,18 @@ const commands = [
     command: "/sellgui",
     description: "Mở 1 gui bán đồ bạn có thể đưa đồ vào đó rồi đóng gui sẽ tự động bán hết đồ bạn để vào đó",
   },
+  {
+    command: "/withdraw ($)",
+    description: "Rút ra 1 số tiền nhất định",
+  },
+  {
+    command: "/deposit hoặc ấn chuột phải",
+    description: "Phải có 1 banknotes trên tay chuyển tiền vào trong tài khoản",
+  },
+  {
+    command: '/trade "tên người chơi"',
+    description: "Trao đổi vật phẩm hoặc tiền với người chơi khác",
+  },
 ];
 function Shop() {
   return (
