@@ -1,8 +1,10 @@
+import { component } from 'react'
 import { Routes, Route } from  'react-router-dom';
 import Main from "./pages/Main";
 import Header from "./pages/Header";
 import Footer from "./pages/Footer";
 import Map from "./pages/Map";
+import Analytics from "./pages/Analytics";
 import Download from "./pages/Download";
 import Town from './pages/helps/Town';
 import Shop from './pages/helps/Shop';
@@ -24,6 +26,7 @@ function App() {
         <Route path='/helps/Lock' element={<Lock />} />
         <Route path='/helps/Skin' element={<Skin />} />
         <Route path='/helps/TP' element={<Random />} />
+        <Route path='/analytics' element={<Analytics />}/>
       </Routes>
       <Footer />
     </div>
